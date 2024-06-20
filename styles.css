@@ -1,0 +1,50 @@
+#Y_Data {
+  margin-bottom: 50px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline;
+}
+
+
+#Y_Graph {
+  margin-left: 10%;
+  width: 50%;
+}
+
+#Z_Data {
+  margin-bottom: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline;
+}
+
+
+#Z_Graph {
+  margin-left: 10%;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+
+  #Y_Graph {
+    width: 80%;
+  }
+
+  #Y_Data {
+    margin-bottom: 5px;
+  }
+
+  #Z_Graph {
+    width: 80%;
+  }
+
+  #Z_Data {
+    margin-bottom: 5px;
+  }
+
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang=fr>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Little calculs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+  <input type="file" id="fileInput">
+
+
+
+  <div id="Y_Graph">
+
+    <div id="Y_Data">
+      <label>X scale :</label>
+      <select id="Y_Graph_X_Scale">
+        <option value="10">10s</option>
+        <option value="30">30s</option>
+        <option value="60">1min</option>
+      </select>
+
+      <canvas id="Y_Data_Canva"> </canvas>
+
+    </div>
+
+  </div>
+
+
+  <div id="Z_Graph">
+
+    <div id="Z_Data">
+      <label>X scale :</label>
+      <select id="Z_Graph_X_Scale">
+        <option value="10">10s</option>
+        <option value="30">30s</option>
+        <option value="60">1min</option>
+      </select>
+
+      <canvas id="Z_Data_Canva"> </canvas>
+
+    </div>
+
+  </div>
+  </div>
+
+
+
+  <script src="main.js" async></script>
+</body>
